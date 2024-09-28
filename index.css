@@ -4,6 +4,16 @@ body {
     background-color: #f4f4f4; /* Light background  f4f4f4 */
 }
 
+h1 {
+    text-align: center;
+    font-size: 75px;
+    padding-bottom: 5%;
+    font-variant: small-caps;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    color: rgb(51, 51, 51);
+}
+
 .topnav {
     display: flex; /* Use flexbox for centering */
     justify-content: center; /* Center items horizontally */
