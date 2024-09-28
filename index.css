@@ -50,6 +50,11 @@ body {
     margin-left: auto; /* Push icon to the right */
 }
 
+.topnav .icon i {
+    transition: all 0.3s ease;
+}
+
+
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {
         display: none; /* Hide other links on small screens */
