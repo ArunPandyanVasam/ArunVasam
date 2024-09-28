@@ -1,8 +1,14 @@
 function toggleNavbar() {
-    var navbar = document.getElementById("myTopnav");
-    if (navbar.className === "topnav") {
-        navbar.className += " responsive"; 
+    var x = document.getElementById("myTopnav");
+    var icon = document.querySelector(".topnav .icon i");
+
+    if (x.className === "topnav") {
+        x.className += " responsive";
+        icon.classList.remove("fa-bars");
+        icon.classList.add("fa-times");
     } else {
-        navbar.className = "topnav"; 
+        x.className = "topnav";
+        icon.classList.remove("fa-times");
+        icon.classList.add("fa-bars");
     }
 }
