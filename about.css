@@ -95,3 +95,7 @@ h1 {
 .content {
     padding: 5%; /* Padding around content */
 }
+
+footer .w3-hover-opacity {
+    margin-right: 15px; /* Adjust the value as needed for desired spacing */
+}
