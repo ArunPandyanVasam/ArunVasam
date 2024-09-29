@@ -1,14 +1,14 @@
 function toggleNavbar() {
-    var x = document.getElementById("myTopnav");
-    var icon = document.querySelector(".topnav .icon i");
+  var x = document.getElementById("myTopnav");
+  var icon = document.querySelector(".topnav .icon i");
 
-    if (x.className === "topnav") {
-        x.className += " responsive";
-        icon.classList.remove("fa-bars");
-        icon.classList.add("fa-times");
-    } else {
-        x.className = "topnav";
-        icon.classList.remove("fa-times");
-        icon.classList.add("fa-bars");
-    }
+  if (x.className === "topnav") {
+    x.className += " responsive";
+    icon.classList.remove("fa-bars");
+    icon.classList.add("fa-times");
+  } else {
+    x.className = "topnav";
+    icon.classList.remove("fa-times");
+    icon.classList.add("fa-bars");
+  }
 }

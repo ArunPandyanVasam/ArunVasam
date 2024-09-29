@@ -1,106 +1,114 @@
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f4f4; /* Light background */
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4; /* Light background */
 }
 
 h1 {
-    text-align: center;
-    font-size: 75px;
-    padding-bottom: 5%;
-    font-variant: small-caps;
-    font-family: 'Courier New', Courier, monospace;
-    font-style: oblique;
-    color: rgb(51, 51, 51);
+  text-align: center;
+  font-size: 75px;
+  padding-bottom: 5%;
+  font-variant: small-caps;
+  font-family: "Courier New", Courier, monospace;
+  font-style: oblique;
+  color: rgb(51, 51, 51);
 }
 
 h3 {
-    text-align: center;
-    padding: 2%;
+  text-align: center;
+  padding: 2%;
 }
 
 .topnav {
-    display: flex; /* Use flexbox for centering */
-    justify-content: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically */
-    overflow: hidden;
-    background-color: #EEEDE7; /* Darker background */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
-    padding: 8% 8%; /* Add padding for a more spacious look */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  overflow: hidden;
+  background-color: #eeede7; /* Darker background */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+  padding: 8% 8%; /* Add padding for a more spacious look */
 }
 
 .topnav a {
-    display: block;
-    color: #05445E; /* Lighter text */
-    font-weight: bold;
-    text-align: center;
-    padding: 12px 16px; /* Adjusted padding */
-    text-decoration: none;
-    font-size: 180%; /* Slightly larger font */
-    transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
-    border-radius: 4px; /* Rounded corners for links */
+  display: block;
+  color: #05445e; /* Lighter text */
+  font-weight: bold;
+  text-align: center;
+  padding: 12px 16px; /* Adjusted padding */
+  text-decoration: none;
+  font-size: 180%; /* Slightly larger font */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+  border-radius: 4px; /* Rounded corners for links */
 }
 
 .topnav a:hover {
-    /*  background-color: #34495e; Lighter background on hover */
-    color: #0A0708; /* White text on hover */
+  /*  background-color: #34495e; Lighter background on hover */
+  color: #0a0708; /* White text on hover */
 }
 
 .topnav a.active {
-    /*  background-color: #D4F1F4; Active link color */
-    color: #05445E; /* Active link text */
-    font-weight: bold; /* Bold active link */
+  /*  background-color: #D4F1F4; Active link color */
+  color: #05445e; /* Active link text */
+  font-weight: bold; /* Bold active link */
 }
 
 .topnav a.active:hover {
-    /*  background-color: #34495e; Lighter background on hover */
-    color: #0A0708; /* White text on hover */
+  /*  background-color: #34495e; Lighter background on hover */
+  color: #0a0708; /* White text on hover */
 }
 
-
 .topnav .icon {
-    display: none; /* Hide by default */
-    font-size: 22px; /* Increase icon size */
-    color: #05445E; /* Lighter color for icon */
-    margin-left: auto; /* Push icon to the right */
+  display: none; /* Hide by default */
+  font-size: 22px; /* Increase icon size */
+  color: #05445e; /* Lighter color for icon */
+  margin-left: auto; /* Push icon to the right */
 }
 
 .topnav .icon i {
-    transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {
-        display: none; /* Hide other links on small screens */
-    }
-    .topnav a.icon {
-        display: block; /* Show the icon */
-    }
+  .topnav a:not(:first-child) {
+    display: none; /* Hide other links on small screens */
+  }
+  .topnav a.icon {
+    display: block; /* Show the icon */
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .topnav.responsive {
-        flex-direction: column; /* Stack items vertically */
-    }
-    .topnav.responsive .icon {
-        position: absolute;
-        right: 20px; /* Align icon to the top-right */
-        top: 10px; /* Adjust vertical position */
-    }
-    .topnav.responsive a {
-        float: none; /* Stack links vertically */
-        display: block; /* Show links */
-        text-align: left; /* Align text to the left */
-        padding: 10px 15px; /* Padding for mobile */
-        border-radius: 0; /* Remove rounding for mobile */
-    }
+  .topnav.responsive {
+    flex-direction: column; /* Stack items vertically */
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 20px; /* Align icon to the top-right */
+    top: 10px; /* Adjust vertical position */
+  }
+  .topnav.responsive a {
+    float: none; /* Stack links vertically */
+    display: block; /* Show links */
+    text-align: left; /* Align text to the left */
+    padding: 10px 15px; /* Padding for mobile */
+    border-radius: 0; /* Remove rounding for mobile */
+  }
 }
 
 /* Content styling */
 .content {
-    padding: 6%; /* Padding around content */
+  padding: 6%; /* Padding around content */
 }
 
 footer .w3-hover-opacity {
-    margin-right: 15px; /* Adjust the value as needed for desired spacing */
+  margin-right: 15px; /* Adjust the value as needed for desired spacing */
 }
+
+a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a p {
+    padding: 15px;
+  }
