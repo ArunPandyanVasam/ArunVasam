@@ -94,6 +94,12 @@ h1 {
 /* Content styling */
 .content {
     padding: 5%; /* Padding around content */
+    max-width: 800px; /* Set a maximum width for better readability */
+    margin: 0 auto; /* Center the content */
+}
+
+.content p {
+    font-size: larger;
 }
 
 footer .w3-hover-opacity {

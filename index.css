@@ -104,3 +104,13 @@ footer .w3-hover-opacity {
 .col-sm-3 img:hover {
     opacity: 0.7;
 }
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+a p {
+    padding: 15px;
+}
