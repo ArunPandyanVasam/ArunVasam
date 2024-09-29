@@ -97,6 +97,11 @@ h3 {
   }
 }
 
+.col-sm-3 a {
+  text-decoration: none;
+  color: rgb(34, 34, 34);
+}
+
 /* Content styling */
 .content {
   padding: 6%; /* Padding around content */
