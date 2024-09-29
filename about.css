@@ -23,7 +23,7 @@ h2 {
 
 /* Content Styling */
 .content {
-  padding: 6%; /* Padding around content */
+  padding: 5%; /* Padding around content */
   max-width: 800px; /* Set a maximum width for better readability */
   margin: 0 auto; /* Center the content */
   font-size: 18px; /* Set a base font size for readability */
