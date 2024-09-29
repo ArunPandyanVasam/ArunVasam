@@ -100,3 +100,7 @@ h1 {
 footer .w3-hover-opacity {
     margin-right: 15px; /* Adjust the value as needed for desired spacing */
 }
+
+.col-sm-3 img:hover {
+    opacity: 0.7;
+}
