@@ -1,14 +1,14 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f4f4; /* Light background */
+  background-color: #f4f4f4;
 }
 
 /* Headings Styling */
 h1 {
   text-align: center;
-  font-size: 45px; /* Reduce size for better fit on mobile */
-  margin-bottom: 20px; /* Spacing below heading */
+  font-size: 45px;
+  margin-bottom: 20px;
   font-variant: small-caps;
   font-family: "Courier New", Courier, monospace;
   color: rgb(51, 51, 51);
@@ -20,50 +20,47 @@ h3 {
 }
 
 .topnav {
-  display: flex; /* Use flexbox for centering */
-  justify-content: center; /* Center items horizontally */
-  align-items: center; /* Center items vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
-  background-color: #eeede7; /* Darker background */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
-  padding: 8% 8%; /* Add padding for a more spacious look */
+  background-color: #eeede7;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  padding: 8% 8%;
 }
 
 .topnav a {
   display: block;
-  color: #05445e; /* Lighter text */
+  color: #05445e;
   font-weight: bold;
   text-align: center;
   font-variant: small-caps;
   font-family: "Courier New", Courier, monospace;
-  padding: 12px 16px; /* Adjusted padding */
+  padding: 12px 16px;
   text-decoration: none;
-  font-size: 3em; /* Slightly larger font */
-  transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
-  border-radius: 4px; /* Rounded corners for links */
+  font-size: 3em;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 4px;
 }
 
 .topnav a:hover {
-  /*  background-color: #34495e; Lighter background on hover */
-  color: #0a0708; /* White text on hover */
+  color: #0a0708;
 }
 
 .topnav a.active {
-  /*  background-color: #D4F1F4; Active link color */
-  color: #05445e; /* Active link text */
-  font-weight: bold; /* Bold active link */
+  color: #05445e;
+  font-weight: bold;
 }
 
 .topnav a.active:hover {
-  /*  background-color: #34495e; Lighter background on hover */
-  color: #0a0708; /* White text on hover */
+  color: #0a0708;
 }
 
 .topnav .icon {
-  display: none; /* Hide by default */
-  font-size: 22px; /* Increase icon size */
-  color: #05445e; /* Lighter color for icon */
-  margin-left: auto; /* Push icon to the right */
+  display: none;
+  font-size: 22px;
+  color: #05445e;
+  margin-left: auto;
 }
 
 .topnav .icon i {
@@ -72,72 +69,68 @@ h3 {
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
-    display: none; /* Hide other links on small screens */
+    display: none;
   }
   .topnav a.icon {
-    display: block; /* Show the icon */
+    display: block;
   }
 }
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {
-    flex-direction: column; /* Stack items vertically */
+    flex-direction: column;
   }
   .topnav.responsive .icon {
     position: absolute;
-    right: 20px; /* Align icon to the top-right */
-    top: 10px; /* Adjust vertical position */
+    right: 20px;
+    top: 10px;
   }
   .topnav.responsive a {
-    float: none; /* Stack links vertically */
-    display: block; /* Show links */
-    text-align: left; /* Align text to the left */
-    padding: 10px 15px; /* Padding for mobile */
-    border-radius: 0; /* Remove rounding for mobile */
+    float: none;
+    display: block;
+    text-align: left;
+    padding: 10px 15px;
+    border-radius: 0;
   }
 }
 
 /* Content styling */
 .content {
-  padding: 6%; /* Padding around content */
+  padding: 6%;
 }
 
 /* Footer styling */
 footer {
   padding: 64px;
-  background-color: #f4f4f4; /* Match the light background color */
-  text-align: center; /* Center text */
+  background-color: #f4f4f4;
+  text-align: center;
   font-size: larger;
 }
 
 .footer-icons {
-  margin-bottom: 15px; /* Add some space between icons and text */
-  display: flex; /* Use flexbox for the icons */
-  justify-content: center; /* Center icons horizontally */
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
 }
 
 footer .w3-hover-opacity {
-  margin: 0 10px; /* Horizontal spacing between icons */
+  margin: 0 10px;
 }
 
 footer p {
-  margin: 0; /* Remove default margin to maintain consistent spacing */
-  text-align: center; /* Center text within the paragraph */
+  margin: 0;
+  text-align: center;
 }
 
 footer a {
   color: black;
 }
 
-footer p a{
+footer p a {
   color: black;
 }
 
 /* Additional styles to ensure the icons align properly */
 footer .w3-hover-opacity {
-  display: inline-block; /* Ensure icons are inline */
+  display: inline-block;
 }
-
-
-
-
